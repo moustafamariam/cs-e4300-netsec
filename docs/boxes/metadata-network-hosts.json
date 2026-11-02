@@ -1,0 +1,19 @@
+{
+  "name": "cs-e4300/network-hosts",
+  "description": "CS-E4300 firewall exercise hosts: Ubuntu 24.04 with Docker and the lab toolbox image",
+  "versions": [
+    {
+      "version": "2026.1.0",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "architecture": "amd64",
+          "default_architecture": true,
+          "url": "https://github.com/moustafamariam/cs-e4300-netsec/releases/download/boxes-v2026.1/network-hosts-2026.1.0-virtualbox-amd64.box",
+          "checksum_type": "sha256",
+          "checksum": "86ff2a8207c3ba320fc4f8a48c0720f4c25fcbe9176126c5ab2a6f5ed9c726b0"
+        }
+      ]
+    }
+  ]
+}
