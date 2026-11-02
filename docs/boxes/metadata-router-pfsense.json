@@ -1,0 +1,19 @@
+{
+  "name": "cs-e4300/router-pfsense",
+  "description": "CS-E4300 firewall exercise router",
+  "versions": [
+    {
+      "version": "2026.1.0",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "architecture": "amd64",
+          "default_architecture": true,
+          "url": "https://github.com/moustafamariam/cs-e4300-netsec/releases/download/boxes-v2026.1/router-pfsense-2026.1.0-virtualbox-amd64.box",
+          "checksum_type": "sha256",
+          "checksum": "e8d2f0de5ec032e3ca058ecf4047fb9ca31253f036ffb3edaa4b3aeca295033f"
+        }
+      ]
+    }
+  ]
+}
